@@ -1,0 +1,21 @@
+{
+    "dataset_records": 404800,
+    "classification": {
+        "selected_model": "XGBoost Classifier",
+        "test_accuracy": 0.983,
+        "test_f1_macro": 0.9286,
+        "val_roc_auc": 0.9977,
+        "classes": [
+            "Eligible",
+            "High_Risk",
+            "Not_Eligible"
+        ]
+    },
+    "regression": {
+        "selected_model": "XGBoost Regressor",
+        "test_rmse": 703.2636857259542,
+        "test_mae": 305.1234599367514,
+        "test_r2": 0.9917517890599993
+    },
+    "features_count": 57
+}
